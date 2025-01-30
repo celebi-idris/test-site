@@ -1,7 +1,6 @@
 <div class="call">
     <div class="call-box-top">
         <div class="call-phone"><strong>Telefon: </strong> 555 444 33 22</div>
-        operasyon@sigorta.com
         <div class="call-email"><strong>Email: </strong>
             <a href="mailto:{{ .site.data.contact.email }}">
                 {{ site.data.contact.email }}
@@ -13,4 +12,13 @@
         <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
     </div>
     {% endif %}
+
+    <a href="https://wa.me/message/YQ74R7GOR3M6C1" target="_blank"
+       style="position: fixed; bottom: 140px; right: 100px; max-width: 200px; width: 100%; z-index: 1000;">
+        <img src="images/social/whatsapp.png" alt="WhatsApp"
+             style="width: 100%; height: auto; display: block; cursor: pointer;
+                transition: transform 0.3s ease-in-out;"
+             onmouseover="this.style.transform='scale(1.1)'"
+             onmouseout="this.style.transform='scale(1)'">
+    </a>
 </div>
