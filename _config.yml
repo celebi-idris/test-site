@@ -1,4 +1,4 @@
-baseurl: 'celebi-idris.github.io/test-site/'
+baseurl: '/test-site/'
 permalink: pretty
 title: 'XXX Sigorta'
 
